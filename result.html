@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>搜索结果页</title>
+    <link rel="stylesheet" type="text/css" href="css/result.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img id="logo" src="Jobeasyimages/logo.jpg"/>
+            <nav id="navv">
+                <a href="index.html">首页</a>
+                <a href="myjob.html">找工作</a>
+                <a href="myjob.html">校园招聘</a>
+            </nav>
+            <div class="right" id="dlzc">
+                <input type='submit' value="注册" id="zc" onclick="location.href='register.html?type=1'">
+                <input type='submit' value="登录" id="dl">
+            </div>
+            <div class="right" id="dlzcc">
+                <img id="img" src=""/>
+                <div class="y">
+                    <p>用户名&nbsp;&nbsp;:&nbsp;&nbsp;<i id="user"></i></p>
+                    <p>
+                        <a href="" onclick="return false">账号设置</a>&nbsp;&nbsp;/&nbsp;&nbsp;
+                        <a href='result.html?name=&type=0'>退出登录</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="sousuo">
+        <div class="top">
+            <input type="text" id="around" placeholder="输入职位或公司名称" class="cai"/>
+            <img src="Jobeasyimages/search/search_icon.png"/>
+            <input type="submit" id="sou" value="搜索" class="sou"/>
+        </div>
+        <div class="bottom">
+            <span>热门搜索：</span>
+            <a id="trade">
+                <div class="xz">
+                    <i id="hymz">选择行业</i><span>+</span>
+                    <ul id="hy"></ul>
+                </div>
+            </a>
+            <a id="intel">
+                <div class="xz">
+                    <i id="xzzn">选择职能</i><span>+</span>
+                    <ul id="zn"></ul>
+                </div>
+            </a>
+            <a id="made">
+                <div class="xz">
+                    <i id="dd">工作地点</i><img src="Jobeasyimages/search/re_01.png"/>
+                    <ul id="gzdd"></ul>
+                </div>
+            </a>
+            <a id="qiye">
+                <div class="xz">
+                    <i id="qy">企业性质</i><img src="Jobeasyimages/search/re_01.png"/>
+                    <ul id="qyxz"></ul>
+                </div>
+            </a>
+        </div>
+    </section>
+    <section class="jieguo">
+        <div id="barcon"></div>
+        <h1>共为您找到<span id="count">0</span>个职位</h1>
+        <div id="store"></div>
+    </section>
+</body>
+<script type="text/javascript" src="js/ajax.js"></script>
+<script type="text/javascript" src="js/result.js"></script>
+</html>

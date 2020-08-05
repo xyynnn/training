@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>图片显示页</title>
+</head>
+<body>
+    <img id="image" src="Jobeasyimages/banner.png" width="900px" height="auto" alt="">
+    <a id="back"><h1>返回</h1></a>
+</body>
+<script type="text/javascript">
+    var image=document.getElementById("image");
+    var back=document.getElementById("back");
+    var img=parseInt(window.location.href.split("?img=")[1].split("&")[0]);
+    var r2=window.location.href.split("&type=")[1].split("&")[0];
+    if(img==0){
+        image.src="Jobeasyimages/banner.png";
+    }else{
+        image.src="Jobeasyimages/banner"+img+".png";
+    }
+    var backUri = document.referrer;
+    back.href=backUri;
+    /*if(window.location.href.split("&username=")[1]){
+        var r=window.location.href.split("&username=")[1].split("&")[0];
+        back.href="index.html?username="+r+"&type="+r2+"&photo="+window.location.href.split("&photo=")[1].split("&")[0];
+    }else{
+        back.href="index.html";
+    }*/
+
+</script>
+</html>

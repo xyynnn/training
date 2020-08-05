@@ -1,0 +1,93 @@
+*{
+    font-family: Arial;
+    font-size:14px;
+    margin:0;
+    padding:0px;
+    border:none;
+}
+.hidden{display: none;}
+a{
+    text-decoration: none;
+    color:#fff;
+    cursor: pointer;
+}
+header{
+    height:80px;
+    background-color:#08a3f3;
+}
+.container{
+    width:1200px;
+    margin:0 auto;/*块区剧中*/
+}
+header>.container{
+    height:80px;
+    background-color:#08a3f3;
+    display:flex;
+    /* justify-content:center; */
+    align-items:center;
+    position: relative;
+}
+
+header>.container>img{
+    cursor: pointer;
+    float:left;
+}
+header>.container>nav{
+    float:left;
+}
+header>.container>nav>a{
+    display: block;
+    float:left;
+    height:40px;
+    line-height:40px;
+    margin-left:20px;
+}
+header>.container>nav>a:hover,
+header>.container>nav>a:first-of-type{
+    border-bottom:1px solid #fff;
+}
+header>.container>.right{
+    position: absolute;
+    right:0;
+    display: none;
+}
+header>.container>.right>img{
+    float:right;
+    width:55px;
+    height:55px;
+    border-radius: 55px;
+}
+header>.container>.right>.y{
+    float:right;
+    color:white;
+    text-align: right;
+    margin-right:7px;
+    margin-top:5px;
+}
+header>.container>.right>.y>p>i{
+    font-size: 15px;
+}
+header>.container>.right>.y>p:first-of-type{
+    font-size:16px;
+    padding-right:3px;
+}
+header>.container>.right>.y>p>a{
+    font-size:13px;
+}
+header>.container>.right>input{
+    float:left;
+    width:75px;
+    height:40px;
+    border:1px solid #fff;
+    color:#fff;
+    background: transparent;
+    margin-left:20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+header>.container>.right>input:hover{
+    background: #fff;
+    color:#08a3f3;
+}
+
+

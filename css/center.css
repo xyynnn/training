@@ -1,0 +1,487 @@
+section{
+    width:100%;
+    height:435px;
+    background: #ececec;
+}
+ul,li{list-style: none;}
+#box{
+    width:860px;
+    height:400px;
+    position:relative;
+    overflow: hidden;
+    float:left;
+}
+#list{
+    width:2580px;
+    height:100%;
+    position:absolute;
+    top:0;
+}
+#list>li{float:left;}
+#btn>span{
+    width:42px;
+    height:42px;
+    border-radius: 50%;
+    cursor:pointer;
+    z-index:5;
+    position: absolute;
+    top:50%;
+    margin-top:-30px;
+    opacity: 0.1;
+}
+#box:hover #btn>span{opacity: 1;}
+#btn>span:first-child{left:5px;background:url(../Jobeasyimages/banner_btnL.png);}
+#btn>span:last-child{right:5px;background:url(../Jobeasyimages/banner_btnR.png);}
+#points{
+    position:absolute;
+    left:50%;
+    margin-left:-35px;
+    bottom:40px;
+    z-index: 2;
+    height:10px;
+    width:102px;
+}
+#points li{
+    float:left;
+    margin-right: 20px;
+    width:14px;
+    height:14px;
+    background:#858eb2;
+    opacity: 0.7;
+    cursor:pointer;
+    border-radius: 50%;
+}
+#points>li.on{background: #fff;opacity: 1;}
+#list>li>a>img{width:860px;height:400px;}
+#dl1{display: block;}
+#dll{display: none;}
+section>.container{
+    height:435px;
+    padding-top:15px;
+    box-sizing: border-box;
+    background: #ececec;
+    position: relative;
+}
+/* section>.container>img{
+    width:860px;
+    height:400px;
+    float:left;
+} */
+section>.container>.right{
+    width:320px;
+    height:398px;
+    background: #fff;
+    float:right;
+}
+section>.container>.right>.top>a{
+    color:#a7a7a9;
+    display: block;
+    float:left;
+    height:60px;
+    width:160px;
+    border-bottom:3px solid #f0f0f0;
+    font-size:16px;
+    text-align:center;
+    font-weight: bold;
+    line-height:60px;
+}
+section>.container>.right>.top>a.ay{
+    color:#08a3f3;
+}
+section>.container>.right>.top{
+    height:80px;
+    position: relative;
+
+}
+section>.container>#xian{
+    display: block;
+    position: absolute;
+    top:75px;
+    width:160px;
+    right:160px;
+    border-bottom:3px solid #08a3f3;
+    z-index:99;
+}
+section>.container>.right>.cen{
+    width:280px;
+    height:290px;
+    margin:0 auto;
+    border-bottom: 1px solid #e3e3e3;
+    position: relative;
+}
+section>.container>.right>.cen>p{
+    color:#989697;
+}
+section>.container>.right>.cen>input{
+    width:280px;
+    height:50px;
+    border:1px solid #e3e3e3;
+    margin-top:10px;
+    padding-left:10px;
+    box-sizing:border-box;
+}
+section>.container>.right>.cen>.yzm>input{
+    width:280px;
+    height:50px;
+    border:1px solid #e3e3e3;
+    padding-left:10px;
+    box-sizing:border-box;
+}
+section>.container>.right>.cen>input:last-of-type{
+    background-color:#fc9b00;
+    color:#fff;
+    font-size: 20px;
+    letter-spacing: 5px;
+    cursor: pointer;
+    outline: none;
+}
+section>.container>.right>.cen>.yzm{
+    position: relative;
+    margin-top: 10px;
+}
+section>.container>.right>.cen>.yzm>.code{
+    position: absolute;
+    top:15px;
+    right:50px;
+    font-size: 20px;
+    user-select:none;
+}
+section>.container>.right>.cen>.yzm>img{
+    position: absolute;
+    right:10px;
+    top:12px;
+}
+section>.container>.right>.cen>a{
+    color:#08a3f3;
+    float:right;
+    margin:10px 0 0 0;
+}
+section>.container>.right>.cen>.liji>a{
+    margin:10px 0 0 0;
+    float:left;
+}
+section>.container>.right>.cen>.liji.r{
+    float:right;
+}
+section>.container>.right>.cen>input.de{
+    margin-top:20px;
+}
+section>.container>.right>.cen.no{
+    border:none;
+}
+section>.container>.right>.cen>.liji>a:first-of-type{
+    color:#a7a7a9;
+}
+section>.container>.right>.cen>.liji>a:last-of-type{
+    color:#fc9b00;
+}
+section>.container>.right>.cen>.liji{float:left;}
+section>.container>.right>.top2{
+    width:320px;
+    height:200px;
+    border-bottom:1px dashed #e3e3e3;
+    text-align:center;
+    line-height:30px;
+}
+section>.container>.right>.top2>img{
+    width:100px;
+    height:100px;
+    border-radius: 100px;
+    margin-top:35px;
+}
+section>.container>.right>.bottom{
+    padding:30px;
+}
+section>.container>.right>.bottom>.two{
+    width:260px;
+    height:40px;
+}
+section>.container>.right>.bottom>.two>.t>img{
+    width:20px;
+    height:20px;
+    margin-right:8px;
+    float:left;
+}
+section>.container>.right>.bottom>.two>.t>a{
+    color:#000;
+    display:block;
+    float:left;
+}
+section>.container>.right>.bottom>.two>.t:nth-of-type(2){
+    float:right;
+}
+section>.container>.right>.bottom>input{
+    width:240px;
+    height:40px;
+    background-color:#f5f5f5;
+    color:#888888;
+    font-size: 17px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    outline: none;
+    margin:5px 10px;
+    border:1px solid #dbdbdb;
+    border-radius: 30px;
+}
+.xun{text-align:center;color:#000;}
+
+
+/*.center{
+     height:2620px; 
+}*/
+.center>.container{
+    position: relative;
+}
+
+.sideNav{
+    width:50px;
+    position: absolute;
+    left:50%;
+    margin-left:-660px;
+    z-index:2;
+}
+.sideNav li{
+    width: 100%;
+    height: 50px;
+    background: url(../Jobeasyimages/job_type.png);
+    margin-top: 10px;
+    cursor: pointer;
+}
+.sideNav li:nth-child(2){
+    background-position:0 382px;
+}
+.sideNav li:nth-child(3){
+    background-position:0 -165px;
+}
+.sideNav li:nth-child(4){
+    background-position:0 -55px;
+}
+.sideNav li:nth-child(5){
+    background-position:0 438px;
+}
+.sideNav li:nth-child(6){
+    background-position:0 106px;
+}
+.sideNav li:hover{background-position:150px 0px;}
+.sideNav li:nth-child(2):hover{background-position:150px 382px;}
+.sideNav li:nth-child(3):hover{background-position:150px -165px;}
+.sideNav li:nth-child(4):hover{background-position:150px -55px;}
+.sideNav li:nth-child(5):hover{background-position:150px 438px;}
+.sideNav li:nth-child(6):hover{background-position:150px 106px;}
+.sideNav li:nth-child(1).on{background-position:150px 0px;}
+.sideNav li:nth-child(2).on{background-position:150px 382px;}
+.sideNav li:nth-child(3).on{background-position:150px -165px;}
+.sideNav li:nth-child(4).on{background-position:150px -55px;}
+.sideNav li:nth-child(5).on{background-position:150px 438px;}
+.sideNav li:nth-child(6).on{background-position:150px 106px;}
+.center>.container>.top>.container{
+    margin-top:20px;
+    height:170px;
+    padding-top:10px;
+    box-sizing: border-box;
+    color:#888888;
+}
+.center>.container>.top>.container>.left{
+    height:150px;
+    width:265px;
+    float:left;
+}
+.center>.container>.top>.container>.left>.top{
+    height:55px;
+    border-bottom:1px dashed #888888;
+    line-height: 55px;
+    font-size: 18px;
+}
+.center>.container>.top>.container>.left>#onLine{
+    width:260px;
+    height:50px;
+    margin:20px auto;
+    overflow: hidden;
+    position: relative;
+}
+.center>.container>.top>.container>.left>#onLine li{
+    position: relative;
+    float:left;
+    margin-left:5px;
+    width: 30px;
+    height: 40px;
+}
+.center>.container>.top>.container>.left>#onLine li img{
+    position: absolute;
+    width:30px;
+    height:40px;
+    top:15px;
+}
+.center>.container>.top>.container>.left>#onLine span{
+    position: absolute;
+    display: block;
+    right:12px;
+    top:10px;
+}
+.center>.container>.top>.container>.left>#onLine li:first-of-type{margin-left:0;}
+.center>.container>.top>.container>.left>#onLine li img:first-of-type{top:0;}
+.center>.container>.top>.container>.left>#onLine li img:last-of-type{top:55px;}
+.center>.container>.top>.container>.right{
+    height:150px;
+    width:870px;
+    padding-top:10px;
+    box-sizing:border-box;
+    position: relative;
+    float:right;
+}
+.center>.container>.top>.container>.right>.top>.cai{
+    width:760px;
+    height:55px;
+    border:1px solid #08a3f3;
+    padding-left:60px;
+    box-sizing:border-box;
+    font-size:16px;
+    color:#a9a9a9;
+}
+.center>.container>.top>.container>.right>.top>.sou{
+    width:110px;
+    height:55px;
+    float: right;
+    background-color:#08a3f3;
+    box-sizing:border-box;
+    color:#fff;
+    font-size: 18px;
+    cursor: pointer;
+}
+.center>.container>.top>.container>.right>.top>img{
+    position: absolute;
+    left:18px;
+    top:22px;
+    width:30px;
+    height:30px;
+}
+.center>.container>.top>.container>.right>.bottom{
+    margin-top:15px;
+}
+.center>.container>.top>.container>.right>.bottom>a{
+    color:#888888;
+    font-size:15px;
+    margin-left:10px;
+}
+.center>.container>.top>.container>.right>.bottom>a:nth-of-type(2n-1){color:#0aa5f5}
+.mukuai>.container{
+    height:370px;
+    margin-top:30px;
+}
+.mukuai>.container>.left{
+    width:275px;
+    height:370px;
+    background:url(../Jobeasyimages/job_type1.jpg);
+    float:left;
+    box-sizing:border-box;
+    padding: 40px 25px;
+}
+.mukuai:nth-child(2)>.container>.left{
+    background:url(../Jobeasyimages/job_type2.jpg);
+}
+.mukuai:nth-child(3)>.container>.left{
+    background:url(../Jobeasyimages/job_type3.jpg);
+}
+.mukuai:nth-child(4)>.container>.left{
+    background:url(../Jobeasyimages/job_type4.jpg);
+}
+.mukuai:nth-child(5)>.container>.left{
+    background:url(../Jobeasyimages/job_type5.jpg);
+}
+.mukuai:nth-child(6)>.container>.left{
+    background:url(../Jobeasyimages/job_type6.jpg);
+}
+.mukuai>.container>.left>h1{
+    font-size: 15px;
+    font-weight: normal;
+}
+.mukuai>.container>.left>.zhiwei{
+    width: 225px;
+    border-top:1px solid #ddd;
+    margin-top: 15px;
+    position: relative;
+    color:#666;
+}
+.mukuai>.container>.left>.zhiwei>.span{
+    width:112.5px;
+    height: 1px;
+    background-color: #000;
+}
+.mukuai>.container>.left>.zhiwei>p{
+    width: 90px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    float: left;
+    line-height: 30px;
+    margin-left: 25px;
+}
+.mukuai>.container>.left>.zhiwei>p:nth-of-type(2n-1){
+    margin-left: 0px;
+}
+.mukuai>.container>.right{
+    width:924px;
+    height:368px;
+    float:right;
+    border:1px solid #a7a7a9;
+    border-left:none;
+}
+.mukuai>.container>.right::before{
+    content:"";
+    width:0px;
+    height:368px;
+    border-right:1px dashed #a7a7a9;
+    left:50%;
+    margin-left: 135px;
+    position: absolute;
+}
+.mukuai>.container>.right>.r:last-of-type{
+    border-right:none;
+}
+.mukuai>.container>.right>.small{
+    width:400px;
+    height:100px;
+    border-bottom: 1px dashed #a7a7a9;
+    margin:11px 30px;
+    position: relative;
+    float: left;
+}
+.mukuai>.container>.right>.small>img{
+    width:80px;
+    height:80px;
+    margin-top:5px;
+    border:1px solid #e3e3e3;
+    float: left;
+}
+.mukuai>.container>.right>.small>.imfor{
+    float: left;
+    margin-left: 10px;
+}
+.mukuai>.container>.right>.small>.imfor>p:nth-child(1){
+    margin-top: 5px;
+    font-size: 16px;
+    line-height: 25px;
+}
+.mukuai>.container>.right>.small>.imfor>p:nth-child(2){
+    font-size: 14px;
+    line-height: 30px;
+    color:#666;
+}
+.mukuai>.container>.right>.small>.imfor>a{
+    color:#ffc457;
+    font-size:18px;
+    line-height: 30px;
+}
+.mukuai>.container>.right>.small>.location{
+    position: absolute;
+    bottom:13px;
+    right: 5px;
+    color: #666;
+    font-size:13px;
+}
+.mukuai>.container>.right>.small>.location>img{
+    width: 15px;
+    height: auto;
+    float: left;
+    margin-right:5px;
+}

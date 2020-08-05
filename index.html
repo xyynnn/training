@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <link rel="stylesheet" type="text/css" href="css/head.css">
+    <link rel="stylesheet" type="text/css" href="css/center.css">
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img id="logo" src="Jobeasyimages/logo.jpg"/>
+            <nav id="navv"></nav>
+            <div class="right" id="dlzc">
+                <input type='submit' value="注册" id="zc">
+                <input type='submit' value="登录" id="dl">
+            </div>
+            <div class="right" id="dlzcc">
+                <img id="img" src=""/>
+                <div class="y">
+                    <p>用户名&nbsp;&nbsp;:&nbsp;&nbsp;<i id="user"></i></p>
+                    <p>
+                        <a href="" onclick="return false">账号设置</a>&nbsp;&nbsp;/&nbsp;&nbsp;
+                        <a href='index.html'>退出登录</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="center">
+        <section>
+            <div class="container">
+                <div id="box">
+                    <ul id="list">
+                        <li><a><img src="Jobeasyimages/banner.png" alt=""></a></li>
+                        <li><a><img src="Jobeasyimages/banner1.png" alt=""></a></li>
+                        <li><a><img src="Jobeasyimages/banner2.png" alt=""></a></li>
+                    </ul>
+                    <div id="btn">
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul id="points">
+                        <li class="on"></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+                <div id="xian"></div>
+                <!--    个人用户登录前      -->
+                <div id="dl1" class="right">
+                    <div class="top">
+                        <a id="gg" class="ay" onclick="gr()">个人用户</a>
+                        <a id="qq" onclick="qy()">企业用户</a>
+                    </div>
+                    <div class="cen">
+                        <p>一大波offer正在袭来你还在等什么？</p>
+                        <input type="text" id="name1" placeholder="请输入手机号码/邮箱"/>
+                        <input type="text" id="pwd1" placeholder="输入密码"/>
+                        <a>忘记密码?</a>
+                        <input type="submit" value="登录" id="in1"/>
+                        <div class="liji r">
+                            <a>还没有账号？</a>
+                            <a id="grzc">立即注册</a>
+                        </div>
+                    </div>
+                </div>
+                <!--    企业用户登录前      -->
+                <div id="dll" class="right">
+                    <div class="top">
+                        <a id="gg" onclick="gr()">个人用户</a>
+                        <a id="qq" class="ay" onclick="qy()">企业用户</a>
+                    </div>
+                    <div class="cen no">
+                        <p class="xun">寻找千里马</p>
+                        <input type="text" id="name2" placeholder="输入用户名">
+                        <input type="text" id="pwd2" placeholder="请输入密码">
+                        <div class="yzm">
+                            <input id="check" type="text" placeholder="输入验证码">
+                            <div id="checkCode" class="code"></div>
+                            <img id="reset" src="Jobeasyimages/register/resh.png" alt="">
+                        </div>
+                        <input type="submit" id="in2" value="登录" class="de">
+                        <a>忘记密码?</a>
+                        <div class="liji">
+                            <a>还没有账号？</a>
+                            <a id="qyzc">立即注册</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="dl2" class="right hidden">
+                    <div class="top2">
+                        <img id="img2" src="Jobeasyimages/user_photo/1.png">
+                        <p id="user2"></p>
+                    </div>
+                    <div class="bottom">
+                        <div class="two">
+                            <div class="t">
+                                <img src="Jobeasyimages/1.png">
+                                <a>职业测评</a>
+                            </div>
+                            <div class="t">
+                                <img src="Jobeasyimages/2.png">
+                                <a>我的简历</a>
+                            </div>
+                        </div>
+                        <div class="two">
+                            <div class="t">
+                                <img src="Jobeasyimages/3.png">
+                                <a>我的投递</a>
+                            </div>
+                            <div class="t">
+                                <img src="Jobeasyimages/4.png">
+                                <a>账号设置</a>
+                            </div>
+                        </div>
+                        <input type="submit" value="退出登录" onclick="location.href='index.html'">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <ul class="sideNav">
+            <li class="on"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        <div class="container">
+            <div class="top">
+                <div class="container">
+                    <div class="left">
+                    <div class="top">在线职位统计</div>
+                    <ul id="onLine">
+                        <li><img src="Jobeasyimages/Statistics/0.png" alt=""><img src="Jobeasyimages/Statistics/0.png" alt=""></li>
+                        <li><img src="Jobeasyimages/Statistics/0.png" alt=""><img src="Jobeasyimages/Statistics/0.png" alt=""></li>
+                        <li><img src="Jobeasyimages/Statistics/0.png" alt=""><img src="Jobeasyimages/Statistics/0.png" alt=""></li>
+                        <li><img src="Jobeasyimages/Statistics/0.png" alt=""><img src="Jobeasyimages/Statistics/0.png" alt=""></li>
+                        <li><img src="Jobeasyimages/Statistics/0.png" alt=""><img src="Jobeasyimages/Statistics/0.png" alt=""></li>
+                        <li><img src="Jobeasyimages/Statistics/0.png" alt=""><img src="Jobeasyimages/Statistics/0.png" alt=""></li>
+                        <span>个</span>
+                    </ul>
+                    </div>
+                    <div class="right">
+                        <div class="top">
+                            <input type="text" id="around" placeholder="输入职位或公司名称" class="cai"/>
+                            <img src="Jobeasyimages/search/search_icon.png"/>
+                            <input type="submit" id="sou" value="搜索" class="sou"/>
+                        </div>
+                        <div class="bottom">
+                            <span>热门搜索：</span>
+                            <a href="" id="jr">金融</a>
+                            <a href="" id="xz">行政</a>
+                            <a href="" id="xs">销售</a>
+                            <a href="" id="it">IT产业</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+            <!--模块-->
+            <div class="mukuai">
+                <div class="container">
+                    <div class="left">
+                        <h1>互联网·游戏·软件</h1>
+                        <div class="zhiwei">
+                            <div class="span"></div>
+                            <p>互联网/移动互联网</p>
+                            <p>网络游戏</p>
+                            <p>计算机软件</p>
+                            <p>IT服务/系统维护</p>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="small">
+                            <img src="Jobeasyimages/company_img.png">
+                            <div class="imfor">
+                                <p>资金专员</p>
+                                <p>神州数码信息服务股份有限公司</p>
+                                <a href="">面议</a>
+                            </div>
+                            <div class="location">
+                                <img src="Jobeasyimages/location.png">北京市市辖区东城区
+                            </div>
+                        </div>
+                        <div class="small">
+                            <img src="Jobeasyimages/company_img.png">
+                            <div class="imfor">
+                                <p>税务专员</p>
+                                <p>神州数码信息服务股份有限公司</p>
+                                <a href="">面议</a>
+                            </div>
+                            <div class="location">
+                                <img src="Jobeasyimages/location.png">北京市市辖区东城区
+                            </div>
+                        </div>
+                        <div class="small">
+                            <img src="Jobeasyimages/company_img.png">
+                            <div class="imfor">
+                                <p>售前工程师</p>
+                                <p>神州数码信息服务股份有限公司</p>
+                                <a href="">面议</a>
+                            </div>
+                            <div class="location">
+                                <img src="Jobeasyimages/location.png">北京市市辖区东城区
+                            </div>
+                        </div>
+                        <div class="small">
+                            <img src="Jobeasyimages/company_img.png">
+                            <div class="imfor">
+                                <p>财务共享中心专员</p>
+                                <p>神州数码信息服务股份有限公司</p>
+                                <a href="">面议</a>
+                            </div>
+                            <div class="location">
+                                <img src="Jobeasyimages/location.png">北京市市辖区东城区
+                            </div>
+                        </div>
+                        <div class="small">
+                            <img src="Jobeasyimages/company_img.png">
+                            <div class="imfor">
+                                <p>大客户销售代表</p>
+                                <p>神州数码信息服务股份有限公司</p>
+                                <a href="">面议</a>
+                            </div>
+                            <div class="location">
+                                <img src="Jobeasyimages/location.png">北京市市辖区东城区
+                            </div>
+                        </div>
+                        <div class="small">
+                            <img src="Jobeasyimages/company_img.png">
+                            <div class="imfor">
+                                <p>产品专员</p>
+                                <p>神州数码信息服务股份有限公司</p>
+                                <a href="">面议</a>
+                            </div>
+                            <div class="location">
+                                <img src="Jobeasyimages/location.png">北京市市辖区东城区
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 模块 -->
+            <div class="mukuai">
+                <div class="container">
+                    <div class="left">
+                        <h1>电子·通信·硬件</h1>
+                        <div class="zhiwei">
+                            <div class="span"></div>
+                            <p>电子技术/半电子技术</p>
+                            <p>通信(设备/设备)</p>
+                            <p>通信(设备/技术)</p>
+                            <p>计算机硬件/计算机软件</p>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="small">
+                            <img src="Jobeasyimages/company_img3.png">
+                            <div class="imfor">
+                                <p>会计</p>
+                                <p>深圳市实益达技术股份有限公司</p>
+                                <a href="">面议</a>
+                            </div>
+                            <div class="location">
+                                <img src="Jobeasyimages/location.png">广东省深圳市龙岗区
+                            </div>
+                        </div>
+                        <div class="small">
+                            <img src="Jobeasyimages/company_img4.png">
+                            <div class="imfor">
+                                <p>销售工程师</p>
+                                <p>深圳科士达科技股份有限公司</p>
+                                <a href="">面议</a>
+                            </div>
+                            <div class="location">
+                                <img src="Jobeasyimages/location.png">广东省深圳市市辖区
+                            </div>
+                        </div>
+                        <div class="small">
+                            <img src="Jobeasyimages/company_img4.png">
+                            <div class="imfor">
+                                <p>精密空调 售后 技术支持</p>
+                                <p>深圳科士达科技股份有限公司</p>
+                                <a href="">面议</a>
+                            </div>
+                            <div class="location">
+                                <img src="Jobeasyimages/location.png">广东省深圳市市辖区
+                            </div>
+                        </div>
+                        <div class="small">
+                            <img src="Jobeasyimages/company_img3.png">
+                            <div class="imfor">
+                            <p>项目储干 ( 储备项目工程师 )</p>
+                                <p>深圳市实益达技术股份有限公司</p>
+                                <a href="">面议</a>
+                            </div>
+                            <div class="location">
+                                <img src="Jobeasyimages/location.png">广东省深圳市市辖区
+                            </div>
+                        </div>
+                        <div class="small">
+                            <img src="Jobeasyimages/company_img4.png">
+                            <div class="imfor">
+                                <p>新能源售后技术 支持</p>
+                                <p>深圳科士达科技股份有限公司</p>
+                                <a href="">面议</a>
+                            </div>
+                            <div class="location">
+                                <img src="Jobeasyimages/location.png">广东省深圳市市辖区
+                            </div>
+                        </div>
+                        <div class="small">
+                            <img src="Jobeasyimages/company_img4.png">
+                            <div class="imfor">
+                                <p>UPS 售后技术 支持</p>
+                                <p>深圳科士达科技股份有限公司</p>
+                                <a href="">面议</a>
+                            </div>
+                            <div class="location">
+                                <img src="Jobeasyimages/location.png">广东省深圳市市辖区
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 模块 -->
+            <div class="mukuai">
+                <div class="container">
+                    <div class="left">
+                        <h1>房地产·建筑·物业</h1>
+                        <div class="zhiwei">
+                            <div class="span"></div>
+                            <p>房地产开发/房地产销售</p>
+                            <p>规划/设计/规划</p>
+                            <p>规划/设计/管理</p>
+                            <p>房地产服务(房地产销售)</p>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="small">
+                            <img src="Jobeasyimages/company_img5.png">
+                            <div class="imfor">
+                                <p>储备干部 ( 法务方向 )</p>
+                                <p>深圳市天健 ( 集团 ) 股份有限公司</p>
+                                <a href="">面议</a>
+                            </div>
+                            <div class="location">
+                                <img src="Jobeasyimages/location.png">深圳宝安
+                            </div>
+                        </div>
+                        <div class="small">
+                            <img src="Jobeasyimages/company_img5.png">
+                            <div class="imfor">
+                                <p>储备干部 ( 财务方向 )</p>
+                                <p>深圳市天健 ( 集团 ) 股份有限公司</p>
+                                <a href="">面议</a>
+                            </div>
+                            <div class="location">
+                                <img src="Jobeasyimages/location.png">广东省深圳市市辖区
+                            </div>
+                        </div>
+                        <div class="small">
+                            <img src="Jobeasyimages/company_img5.png">
+                            <div class="imfor">
+                                <p>储备干部 ( 物业管理方向 )</p>
+                                <p>深圳市天健 ( 集团 ) 股份有限公司</p>
+                                <a href="">面议</a>
+                            </div>
+                            <div class="location">
+                                <img src="Jobeasyimages/location.png">广东省深圳市市辖区
+                            </div>
+                        </div>
+                        <div class="small">
+                            <img src="Jobeasyimages/company_img5.png">
+                            <div class="imfor">
+                                <p>储备干部 ( 投资方向 )</p>
+                                <p>深圳市天健 ( 集团 ) 股份有限公司</p>
+                                <a href="">面议</a>
+                            </div>
+                            <div class="location">
+                                <img src="Jobeasyimages/location.png">广东省深圳市市辖区
+                            </div>
+                        </div>
+                        <div class="small">
+                            <img src="Jobeasyimages/company_img5.png">
+                            <div class="imfor">
+                                <p>储备干部 ( 人力资源方向 )</p>
+                                <p>深圳市天健 ( 集团 ) 股份有限公司</p>
+                                <a href="">面议</a>
+                            </div>
+                            <div class="location">
+                                <img src="Jobeasyimages/location.png">广东省深圳市市辖区
+                            </div>
+                        </div>
+                        <div class="small">
+                            <img src="Jobeasyimages/company_img5.png">
+                            <div class="imfor">
+                                <p>园林设计专员</p>
+                                <p>深圳市天健 ( 集团 ) 股份有限公司</p>
+                                <a href="">面议</a>
+                            </div>
+                            <div class="location">
+                                <img src="Jobeasyimages/location.png">广东省深圳市市辖区
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mukuai">
+                <div class="container">
+                    <div class="left">
+                        <h1>金融</h1>
+                        <div class="zhiwei">
+                            <div class="span"></div>
+                                <p>银行</p>
+                                <p>保险</p>
+                                <p>基金/证券/基金</p>
+                                <p>会计/审计</p>
+                        </div>
+                    </div>
+                    <div class="right">
+
+                            <div class="small">
+                                <img src="Jobeasyimages/company_img6.png">
+                                <div class="imfor">
+                                    <p>理财经理</p>
+                                    <p>太平人寿保险有限公司</p>
+                                    <a href="">6~8K</a>
+                                </div>
+                                <div class="location">
+                                    <img src="Jobeasyimages/location.png">广东省深圳市福田区
+                                </div>
+                            </div>
+                            <div class="small">
+                                <img src="Jobeasyimages/company_img8.png">
+                                <div class="imfor">
+                                    <p>JAVA工程师</p>
+                                    <p>深圳市天下财富互联网金融信息服务有限公司</p>
+                                    <a href="">面议</a>
+                                </div>
+                                <div class="location">
+                                    <img src="Jobeasyimages/location.png">广东省深圳市福田区
+                                </div>
+                            </div>
+                            <div class="small">
+                                <img src="Jobeasyimages/company_img9.png">
+                                <div class="imfor">
+                                    <p>销售代表</p>
+                                    <p>深圳颂秦投资咨询发展有限公司</p>
+                                    <a href="">8~10K</a>
+                                </div>
+                                <div class="location">
+                                    <img src="Jobeasyimages/location.png">广东省深圳市龙岗区
+                                </div>
+                            </div>
+                            <div class="small">
+                                <img src="Jobeasyimages/company_img7.png">
+                                <div class="imfor">
+                                    <p>资产证券化项目实习生</p>
+                                    <p>深圳金晟硕业资产管理股份有限公司</p>
+                                    <a href="">2~4K</a>
+                                </div>
+                                <div class="location">
+                                    <img src="Jobeasyimages/location.png">广东省深圳市福田区
+                                </div>
+                            </div>
+                            <div class="small">
+                                <img src="Jobeasyimages/company_img8.png">
+                                <div class="imfor">
+                                    <p>运营实习生</p>
+                                    <p>深圳市天下财富互联网金融信息服务有限公司</p>
+                                    <a href="">2~3K</a>
+                                </div>
+                                <div class="location">
+                                    <img src="Jobeasyimages/location.png">广东省深圳市福田区
+                                </div>
+                            </div>
+                            <div class="small">
+                                <img src="Jobeasyimages/company_img9.png">
+                                <div class="imfor">
+                                    <p>金融投资理财顾问</p>
+                                    <p>深圳颂秦投资咨询发展有限公司</p>
+                                    <a href="">8~10K</a>
+                                </div>
+                                <div class="location">
+                                    <img src="Jobeasyimages/location.png">广东省深圳市龙岗区
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mukuai">
+                <div class="container">
+                    <div class="left">
+                        <h1>消费品</h1>
+                        <div class="zhiwei">
+                            <div class="span"></div>
+                                <p>食品/饮料/水果</p>
+                                <p>服务服饰/纺绣品</p>
+                                <p>办公用品及生活用品</p>
+                                <p>百货/批发/销售</p>
+                        </div>
+                    </div>
+                    <div class="right">
+                            <div class="small">
+                                <img src="Jobeasyimages/company_img2.png">
+                                <div class="imfor">
+                                    <p>渠道销售专员</p>
+                                    <p>深圳易图美家具制造有限公司</p>
+                                    <a href="">面议</a>
+                                </div>
+                                <div class="location">
+                                    <img src="Jobeasyimages/location.png">广东省深圳市龙岗区
+                                </div>
+                            </div>
+                            <div class="small">
+                                <img src="Jobeasyimages/company_img2.png">
+                                <div class="imfor">
+                                    <p>高级Java工程师——北京</p>
+                                    <p>深圳市国美电器有限公司</p>
+                                    <a href="">面议</a>
+                                </div>
+                                <div class="location">
+                                    <img src="Jobeasyimages/location.png">深圳
+                                </div>
+                            </div>
+                            <div class="small">
+                                <img src="Jobeasyimages/company_img2.png">
+                                <div class="imfor">
+                                    <p>高级Java工程师——成都</p>
+                                    <p>神州数码信息服务股份有限公司</p>
+                                    <a href="">面议</a>
+                                </div>
+                                <div class="location">
+                                    <img src="Jobeasyimages/location.png">四川省成都市市辖区
+                                </div>
+                            </div>
+                            <div class="small">
+                                <img src="Jobeasyimages/company_img2.png">
+                                <div class="imfor">
+                                    <p>渠道销售专员</p>
+                                    <p>深圳易图美家具制造有限公司</p>
+                                    <a href="">面议</a>
+                                </div>
+                                <div class="location">
+                                    <img src="Jobeasyimages/location.png">广东省深圳市龙岗区
+                                </div>
+                            </div>
+                            <div class="small">
+                                <img src="Jobeasyimages/company_img2.png">
+                                <div class="imfor">
+                                    <p>高级Java工程师——北京</p>
+                                    <p>神州数码信息服务股份有限公司</p>
+                                    <a href="">面议</a>
+                                </div>
+                                <div class="location">
+                                    <img src="Jobeasyimages/location.png">深圳
+                                </div>
+                            </div>
+                            <div class="small">
+                                <img src="Jobeasyimages/company_img2.png">
+                                <div class="imfor">
+                                    <p>架构配置工程师——北京</p>
+                                    <p>深圳市国美电器有限公司</p>
+                                    <a href="">面议</a>
+                                </div>
+                                <div class="location">
+                                    <img src="Jobeasyimages/location.png">深圳
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mukuai">
+                <div class="container">
+                    <div class="left">
+                        <h1>汽车·机械·制作</h1>
+                        <div class="zhiwei">
+                            <div class="span"></div>
+                                <p>汽车/摩托车</p>
+                                <p>印刷/包装/组装</p>
+                                <p>机械制作/机械改造</p>
+                                <p>原材料及加工</p>
+                        </div>
+                    </div>
+                    <div class="right">
+                            <div class="small">
+                                <img src="Jobeasyimages/company_img10.png">
+                                <div class="imfor">
+                                    <p>海外项目管理专员</p>
+                                    <p>东莞市新动能机电技术服务有限公司</p>
+                                    <a href="">面议</a>
+                                </div>
+                                <div class="location">
+                                    <img src="Jobeasyimages/location.png">广东省深圳市市辖区
+                                </div>
+                            </div>
+                            <div class="small">
+                                <img src="Jobeasyimages/company_img10.png">
+                                <div class="imfor">
+                                    <p>海外仓库管理员</p>
+                                    <p>东莞市新动能机电技术服务有限公司</p>
+                                    <a href="">面议</a>
+                                </div>
+                                <div class="location">
+                                    <img src="Jobeasyimages/location.png">广东省深圳市市辖区
+                                </div>
+                            </div>
+                            <div class="small">
+                                <img src="Jobeasyimages/company_img10.png">
+                                <div class="imfor">
+                                    <p>电站管理助理</p>
+                                    <p>东莞市新动能机电技术服务有限公司</p>
+                                    <a href="">面议</a>
+                                </div>
+                                <div class="location">
+                                    <img src="Jobeasyimages/location.png">广东省深圳市市辖区
+                                </div>
+                            </div>
+                            <div class="small">
+                                <img src="Jobeasyimages/company_img10.png">
+                                <div class="imfor">
+                                    <p>海外电站事务经理</p>
+                                    <p>东莞市新动能机电技术服务有限公司</p>
+                                    <a href="">面议</a>
+                                </div>
+                                <div class="location">
+                                    <img src="Jobeasyimages/location.png">广东省深圳市市辖区
+                                </div>
+                            </div>
+                            <div class="small">
+                                <img src="Jobeasyimages/company_img10.png">
+                                <div class="imfor">
+                                    <p>海外电站维护经理</p>
+                                    <p>东莞市新动能机电技术服务有限公司</p>
+                                    <a href="">面议</a>
+                                </div>
+                                <div class="location">
+                                    <img src="Jobeasyimages/location.png">广东省深圳市市辖区
+                                </div>
+                            </div>
+                            <div class="small">
+                                <img src="Jobeasyimages/company_img10.png">
+                                <div class="imfor">
+                                    <p>采购物流协调员</p>
+                                    <p>东莞市新动能机电技术服务有限公司</p>
+                                    <a href="">面议</a>
+                                </div>
+                                <div class="location">
+                                    <img src="Jobeasyimages/location.png">广东省深圳市市辖区
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+        </div>
+    </div>
+    <footer>
+        <div class="one">
+            <div id="seo">
+                <div class="head">
+                    <h2>友情链接</h2><span></span><input id="link" type="submit" value="收起"><i id="icon" class="icon"></i>
+                </div>
+                <div class="main">
+                    <a href="">深圳青年人才</a>
+                    <a href="">深圳市青年创业促进会</a>
+                    <a href="">深圳人才网</a>
+                    <a href="">深圳百姓网</a>
+                    <a href="">深圳社保局官网</a>
+                    <a href="">仁和会计</a>
+                    <a href="">托福考试</a>
+                    <a href="">塔城教育培训网</a>
+                    <a href="">深圳扩展训练</a>
+                    <a href="">师大家教网</a>
+                    <a href="">青岛大学自考本科</a>
+                </div>
+            </div>
+        </div>
+        <div class="two">
+            <div class="module"></div>
+            <div class="module">
+                <h1><span></span>关于我们</h1>
+                <a href="">关于易工作网</a>
+                <a href="">公益声明</a>
+                <a href="">用户协议</a>
+                <a href="">媒体报道</a>
+            </div>
+            <div class="module">
+                <h1><span></span>产品服务</h1>
+                <a href="">线上求职招聘</a>
+                <a href="">人才地图</a>
+                <a href="">精准招聘</a>
+                <a href="">线下校园招聘</a>
+            </div>
+            <div class="module">
+                <h1><span></span>联系我们</h1>
+                <a href="">联系电话</a>
+                <a href="">帮助中心</a>
+                <a href="">友情合作</a>
+                <a href="">意见反馈</a>
+            </div>
+            <div class="module"></div>
+        </div>
+        <div class="three">
+            <div class="left">
+                声明 : 未经<a href="">job12355.com</a>同意，不得转载本网站只所有招聘信息及作品
+            </div>
+            <div class="right">
+                <p>©2015深圳青年人才服务有限公司版权所有</p>
+                <p>粤ICP备15069795号-1</p>
+            </div>
+        </div>
+    </footer>
+    <img class="easyjob" src="Jobeasyimages/bottom_02.png"/>
+    <div class="bottomeasyjob">
+        <div class="bottommenu">
+            <img src="Jobeasyimages/logo.png" alt=""  onclick="window.location.reload()">
+            <img src="Jobeasyimages/bottom_gd_03.png" style="cursor:pointer"  onclick="window.location.reload()" alt="">
+            <input type="submit" value="立即起航">
+        </div>
+        <img id="close" src="Jobeasyimages/bottom_close_03.png" alt="">
+    </div>
+    <div class="menu">
+        <div class="one"></div>
+        <div class="one"></div>
+        <div class="one"></div>
+    </div>
+    <div class="zaixian"></div>
+
+
+    <script type="text/javascript" src="js/move.js"></script>
+    <script type="text/javascript" src="js/css.js"></script>
+    <script type="text/javascript" src="js/moveTime.js"></script>
+    <script type="text/javascript" src="js/tween.js"></script>
+    <script type="text/javascript" src="js/ajax.js"></script>
+    <script type="text/javascript" src="js/yzm.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/scroll.js"></script>
+</body>
+</html>

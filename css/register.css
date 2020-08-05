@@ -1,0 +1,286 @@
+body{
+    margin:0;
+}
+a{text-decoration: none;color:#0aa5f5;font-size:13px;}
+#bigbox{
+    display: none;
+}
+#bigbox>#bg{
+    position: absolute;
+    z-index:99;
+    width:100%;
+    height:100%;
+    background: #000;
+    opacity: 0.3;
+    margin-top: -50px;
+}
+#bigbox>#close{
+    position: absolute;
+    left:620px;
+    right:0px;
+    margin:20px auto 0 auto;
+    cursor: pointer;
+    z-index:101;
+    width:12px;
+    height: 12px;
+    background: url(../Jobeasyimages/register/close.png)no-repeat;
+}
+#bigbox>.neirong{
+    position: absolute;
+    top:0;
+    left:0;right:0;
+    margin:50px auto 0 auto;
+    width:700px;
+    height:705px;
+    border:3px solid #0aa5f5;
+    background: #fff;
+    border-radius: 5px;
+    box-sizing:border-box;
+    z-index:100;
+    overflow:scroll;
+    text-align:center;
+}
+#bigbox>.neirong>.nr{
+    text-align: left;
+    margin-top:30px;
+}
+#bigbox>.neirong>.nr>span{
+    background-color: #0aa5f5;
+    padding:5px 15px 7px 15px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font:17px/25px Microsoft yahei;
+    font-weight:bold;
+}
+#bigbox>.neirong>.nr>p{
+    margin:25px 30px 0 30px;
+    text-indent: 20px;
+}
+#bigbox>.neirong>#append{
+    width:200px;
+    height:40px;
+    margin:30px auto;
+    background: #0aa5f5;
+    color:#fff;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline:none;
+}
+.box{
+    width:950px;
+    height:700px;
+    margin:50px auto;
+    border-radius: 20px;
+    border:1px solid #dbdbdb;
+    box-shadow:0 4px 0px #dbdbdb;
+}
+.box>.newusernav{
+    width: 950px;
+    height: auto;
+    text-align:center;
+    line-height: 150px;
+    color:#fff;
+    background: url(../Jobeasyimages/register/newusernav.jpg)no-repeat;
+    background-size:950px auto;
+}
+.zhuce{
+    width: 500px;
+    margin:0px auto;
+}
+.big{
+    width: 500px;
+    margin:0px auto;
+    position: relative;
+}
+.big>#point{
+    position: absolute;
+    left:115px;
+    top:31px;
+}
+.big>#point::before{
+    content:"";display: block;position: absolute;width: 0;height: 0;border:10px solid transparent;border-bottom-color:#0aa5f5;
+}
+.big>#point::after{
+    content:"";display: block;position: absolute;width: 0;height: 0;border:10px solid transparent;top:1px;border-bottom-color:#fff;border-top-color:transparent;border-left-color:transparent;border-right-color:transparent;
+}
+.zhuce>.top{
+    width: 500px;
+    height: 50px;
+}
+.zhuce>.top>div{
+    cursor: pointer;
+    width:250px;
+    height:50px;
+    text-align: center;
+    border-bottom: 1px solid #0aa5f5;
+    font:15px/50px Microsoft yahei;
+    float: left;
+}
+#zhuce>.top>div#phone{
+    color:#0aa5f5;
+}
+#zhuce2>.top>div#post{
+    color:#0aa5f5;
+}
+.zhuce>.center{
+    width: 500px;
+    height: 410px;
+    padding-top: 15px;
+}
+.zhuce>.center>.one>input,.zhuce>.center>input{
+    width:500px;
+    outline: none;
+    height: 45px;
+    margin-top: 20px;
+    text-indent: 10px;
+}
+.zhuce>.center>.one>span{
+    width:450px;
+    height:20px;
+    font-size: 14px;
+    color:red;
+}
+.zhuce>.center>.upload{
+    margin-top: 10px;
+    width: 500px;
+    height: 60px;
+    line-height: 33px;
+}
+.zhuce>.center>.upload>p{
+    margin-right: 20px;
+    float: left;
+}
+.zhuce>.center>.upload>input{
+    float: left;
+    outline: none;
+    margin-top: 20px;
+}
+.zhuce>.center>.upload>img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    float: left;
+    margin-left: -50px;
+    margin-top: 1px;
+}
+.zhuce>.center>.register{
+    margin-top: 20px;
+    width: 500px;
+    height: 55px;
+}
+.zhuce>.center>.register>.left{
+    width: 225px;
+    height: 40px;
+    float: left;
+    position: relative;
+}
+.zhuce>.center>.register>.left>input{
+    width: 225px;
+    height: 40px;
+    text-indent: 10px;
+}
+.zhuce>.center>.register>.left>.code{
+    width:65px;
+    height:30px;
+    line-height: 30px;
+    position: absolute;
+    top:9px;
+    right:34px;
+    font-size: 20px;
+    cursor: pointer;
+    user-select:none;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.zhuce>.center>.register>.left>img:last-of-type{
+    position: absolute;
+    top:12px;
+    right:0px;
+    cursor: pointer;
+}
+.zhuce>.center>.register>.right{
+    width: 225px;
+    height: 40px;
+    float: right;
+    position: relative;
+}
+.zhuce>.center>.register>.right>input:first-of-type{
+    width: 225px;
+    height: 40px;
+    text-indent: 10px;
+}
+.zhuce>.center>.register>.right>input:last-of-type{
+    width:100px;
+    height:45px;
+    position: absolute;
+    top:0;
+    right:-5px;
+    background:#0aa5f5;
+    color:#fff;
+    border:none;
+    cursor: pointer;
+}
+.zhuce>.center>.xieyi{
+    width: 500px;
+    height: 30px;
+    position: relative;
+}
+.zhuce>.center>.xieyi>div{
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    top: 7px;
+    left:3px;
+    background:url(../Jobeasyimages/register/box.png)center center;
+    font-size: 0;
+}
+.zhuce>.center>.xieyi>div.agree{
+    background:url(../Jobeasyimages/register/box_1.png);
+}
+.zhuce>.center>.xieyi>p{
+    position: absolute;
+    left:24px;
+    top:0;
+    font-size: 13px;
+    line-height:0;
+}
+.zhuce>.center>input:last-of-type{
+    margin-top: 10px;
+    background:#f58d0a;
+    border:none;
+    cursor: pointer;
+    font-size:20px;
+    color:#fff;
+}
+#zhuce2>.center{
+    height:335px;
+}
+.zhuce>.center>p{
+    float:right;
+    margin-top: 10px;
+    font-size: 13px;
+}
+footer{
+    width:1200px;
+    height:100px;
+    margin:65px auto 0 auto;
+    border-top:1px solid #dbdbdb;
+    font-size:14px;
+    color:#666;
+}
+footer>.left{
+    float:left;
+    line-height:100px;
+}
+footer>.left>a{
+    font-size:15px;
+    font-weight:bolder;
+    margin:0 5px;
+}
+footer>.right{
+    float:right;
+    line-height: 10px;
+    text-align: right;
+    margin-top: 20px;
+}

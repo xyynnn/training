@@ -1,0 +1,9 @@
+﻿[
+    {type:0,username:"Y",pwd:"aA1111",photo:"Jobeasyimages/user_photo/1.png"},
+    {type:1,username:"zhangsan",pwd:"123456",photo:"Jobeasyimages/user_photo/1.png"},
+    {type:1,username:"13111111111",pwd:"aA654321",photo:"Jobeasyimages/user_photo/1.png"},
+    {type:1,username:"1596887205@163.com",pwd:"aA1111",photo:"Jobeasyimages/user_photo/1.png"},
+    {type:2,username:"14111111111",pwd:"222222",photo:"Jobeasyimages/user_photo/2.png"},
+    {type:2,username:"1596887205@qq.com",pwd:"123Aa321",photo:"Jobeasyimages/user_photo/2.png"},
+    {type:2,username:"lisi",pwd:"12345678",photo:"Jobeasyimages/user_photo/2.png"}
+]
